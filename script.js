@@ -35,6 +35,8 @@ async function getWeather() {
         description.innerHTML = respData.weather[0].main;
 
         document.querySelector(".temperature").innerHTML = Math.round(respData.main.temp) + "°C";
+        document.querySelector(".feels-like span").innerHTML = Math.round(respData.main.feels_like) + "°C";
+        console.log(respData.main.feels_like);
         document.querySelector(".city").innerHTML = city.toUpperCase() + `, ${respData.sys.country}`;
         document.querySelector(".humidity").innerHTML = respData.main.humidity + "%";
         document.querySelector(".wind").innerHTML = respData.wind.speed + " Km/h";

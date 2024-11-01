@@ -4,6 +4,15 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+.title{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0059ffcf;
+}
 body{
     background: #222;
 }
@@ -71,6 +80,17 @@ body{
     font-weight: 400;
     margin-top: -10px;
 }
+/* Add this to style the "Feels Like" temperature */
+.feels-like {
+    font-size: 24px;
+    color: #ddd;
+    margin: 5px 0;
+}
+.feels-like span {
+    font-weight: bold;
+    color: #ffcc00;
+}
+
 .details{
     display: flex;
     align-items: center;
