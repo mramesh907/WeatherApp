@@ -1,5 +1,5 @@
 
-const apiKey = ${{secrets.API_KEY}};
+const apiKey = ${secrets.API_KEY};
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?units=metric`;
 
 document.querySelector(".search-bar").addEventListener("keypress", function (event) {
